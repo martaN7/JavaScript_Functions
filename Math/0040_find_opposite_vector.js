@@ -4,3 +4,9 @@ function findOppositeVector(vector) {
         return -number;
     });
 }
+
+
+
+
+
+
