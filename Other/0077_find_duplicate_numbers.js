@@ -5,10 +5,12 @@ function findDuplicateNumbers(numbers) {
         values[item] = values[item] ? values[item] + 1 : 1;
     }
 
-    for (let lol in values) {
-        if (values[lol] > 1) {
-            duplicates.push(parseInt(lol));
+    for (let num in values) {
+        if (values[num] > 1) {
+            duplicates.push(parseInt(num));
         }
     }
     return duplicates;
 }
+
+console.log(findDuplicateNumbers([3,5,3,6,9,1,2,3,5,7,1]));
