@@ -1,4 +1,4 @@
-export function sortNumber(number) {
+function sortNumber(number) {
     return Number(Array.from(String(number))
         .map(num => Number(num))
         .filter(num => num !== 0)
