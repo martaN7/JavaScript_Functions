@@ -4,3 +4,5 @@ function addHyphen(number) {
         return num + '-';
     }).join('');
 }
+
+console.log(addHyphen(12367));
