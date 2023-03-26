@@ -18,3 +18,5 @@ function tickTock(repeat) {
     }, 1000);
 
 }
+
+tickTock(5);

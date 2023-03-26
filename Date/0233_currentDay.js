@@ -8,4 +8,4 @@ function currentDay(separator) {
 
     return dd + separator + mm + separator + yyyy;
 }
-console.log(currentDay('/'));
+console.log(currentDay('*-*'));
